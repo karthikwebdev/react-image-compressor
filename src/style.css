@@ -1,0 +1,27 @@
+.App{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+input[type = "number"]{
+    padding: 10px;
+}
+.loader{
+    width: 80vw;
+    border: 2px solid #ddd;
+    margin: 0 10vw;
+    height: 100px;
+}
+.loader div{
+    text-align: center;
+    margin:20px 0;
+}
+.btn{
+    padding: 20px;
+    background-color: teal;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}
